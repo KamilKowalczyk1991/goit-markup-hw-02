@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 body {
-  font-family: "Roboto", "sans-serif";
+  font-family: "Roboto", sans-serif;
   color: #2e2f42;
   background-color: #ffffff;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 .logo {
-  font-family: "Raleway", "sans-serif";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -29,11 +29,11 @@ body {
   color: #4d5ae5;
 }
 
-header span {
+.logo-top {
   color: #2e2f42;
 }
 
-footer span {
+.logo-button {
   color: #f4f4fd;
 }
 
@@ -46,6 +46,10 @@ li {
 }
 
 .link:active {
+  color: #404bbf;
+}
+
+.link:focus {
   color: #404bbf;
 }
 
@@ -66,7 +70,7 @@ address .link {
   font-style: normal;
 }
 
-.hero-h1 {
+.hero-header {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -76,7 +80,7 @@ address .link {
 }
 
 .btn {
-  font-family: "Roboto", "sans-serif";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -90,6 +94,10 @@ address .link {
   background-color: #404bbf;
 }
 .btn:active {
+  background-color: #404bbf;
+}
+
+.btn:focus {
   background-color: #404bbf;
 }
 
